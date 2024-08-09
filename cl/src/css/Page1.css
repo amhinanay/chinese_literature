@@ -1,0 +1,266 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
+
+/* Frontpage */
+.frontpage {
+  width: 100%;
+  height: 75vh;
+  background-image: url('../assets/Home_image1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.frontpage h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* All Posts */
+.allpost {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+}
+
+.rcl, .ching, .analects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  color: #333;
+  border-radius: 12px;
+  padding: 30px;
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  gap: 20px; /* Added gap for spacing */
+}
+
+.rcl img, .ching img, .analects img {
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+  border-right: 2px solid #e0e0e0;
+  padding-right: 20px;
+}
+
+.rcl h1, .ching h1, .analects h1 {
+  font-size: 1.75rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #222;
+}
+
+/* Last Section */
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.last img {
+  width: 100%;
+}
+
+/* About Section */
+.about-col-1,
+.about-col-2 {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-col-2 p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+/* Tabs */
+.tab-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f0f0f0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tab-link {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  color: #f0f0f0;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-link:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.active-link {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.tab-contents {
+  display: none;
+}
+
+.active-tab {
+  display: block;
+  padding: 20px;
+}
+
+.tab-contents ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tab-contents ul li {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.tab-contents ul li span {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .frontpage h1 {
+    font-size: 2.5rem;
+  }
+
+  .allpost {
+    padding: 30px;
+  }
+
+  .rcl, .ching, .analects {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .rcl img, .ching img, .analects img {
+    max-width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .rcl h1, .ching h1, .analects h1 {
+    font-size: 1.5rem;
+  }
+
+  .last {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-col-1, .about-col-2 {
+    padding: 10px;
+  }
+
+  .about-col-2 p {
+    font-size: 0.9rem;
+  }
+
+  .tab-title {
+    font-size: 1rem;
+    flex-direction: column;
+  }
+
+  .tab-link {
+    padding: 10px 0;
+  }
+
+  .tab-contents ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .frontpage h1 {
+    font-size: 1.5rem;
+  }
+
+  .allpost {
+    padding: 20px;
+  }
+
+  .rcl, .ching, .analects {
+    padding: 15px;
+  }
+
+  .rcl h1, .ching h1, .analects h1 {
+    font-size: 1.25rem;
+  }
+
+  .last {
+    padding: 15px;
+  }
+
+  .about-col-1, .about-col-2 {
+    padding: 5px;
+  }
+
+  .about-col-2 p {
+    font-size: 0.8rem;
+  }
+
+  .tab-title {
+    font-size: 0.9rem;
+  }
+
+  .tab-link {
+    padding: 8px 0;
+  }
+
+  .tab-contents ul li {
+    font-size: 0.8rem;
+  }
+}
