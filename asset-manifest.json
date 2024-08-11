@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chinese_literature/static/css/main.2f4c9cd6.css",
-    "main.js": "/chinese_literature/static/js/main.267f25a7.js",
+    "main.js": "/chinese_literature/static/js/main.ed4fd999.js",
     "static/media/Quote_image1.jpg": "/chinese_literature/static/media/Quote_image1.e2aa6deb2e0db59b2777.jpg",
     "static/media/Home_image6.jpg": "/chinese_literature/static/media/Home_image6.7c19bb23e284e13d735e.jpg",
     "static/media/image5.jpg": "/chinese_literature/static/media/image5.644a084282aa9e2f3789.jpg",
@@ -17,10 +17,10 @@
     "static/media/Home_image41.jpg": "/chinese_literature/static/media/Home_image41.ffb665a5bb860487e81b.jpg",
     "index.html": "/chinese_literature/index.html",
     "main.2f4c9cd6.css.map": "/chinese_literature/static/css/main.2f4c9cd6.css.map",
-    "main.267f25a7.js.map": "/chinese_literature/static/js/main.267f25a7.js.map"
+    "main.ed4fd999.js.map": "/chinese_literature/static/js/main.ed4fd999.js.map"
   },
   "entrypoints": [
     "static/css/main.2f4c9cd6.css",
-    "static/js/main.267f25a7.js"
+    "static/js/main.ed4fd999.js"
   ]
 }
