@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chinese_literature/static/css/main.2f4c9cd6.css",
-    "main.js": "/chinese_literature/static/js/main.22c690f4.js",
+    "main.css": "/chinese_literature/static/css/main.6101718b.css",
+    "main.js": "/chinese_literature/static/js/main.d875212a.js",
     "static/media/Quote_image1.jpg": "/chinese_literature/static/media/Quote_image1.e2aa6deb2e0db59b2777.jpg",
     "static/media/Home_image6.jpg": "/chinese_literature/static/media/Home_image6.7c19bb23e284e13d735e.jpg",
     "static/media/image5.jpg": "/chinese_literature/static/media/image5.644a084282aa9e2f3789.jpg",
@@ -10,17 +10,17 @@
     "static/media/Home_image1.jpg": "/chinese_literature/static/media/Home_image1.35bf1d44d2a13d921e24.jpg",
     "static/media/Home_image43.jpg": "/chinese_literature/static/media/Home_image43.699e79f50b1e8ce92ac7.jpg",
     "static/media/Home_image4.jpg": "/chinese_literature/static/media/Home_image4.7ef76ece2e97446902c5.jpg",
+    "static/media/Home_image52.jpg": "/chinese_literature/static/media/Home_image52.e3301085da3238df12a2.jpg",
     "static/media/Home_image32.jpg": "/chinese_literature/static/media/Home_image32.b737a7a3ea1079a763b7.jpg",
-    "static/media/Home_image5.jpg": "/chinese_literature/static/media/Home_image5.c929330a2975fc3ac169.jpg",
     "static/media/Home_image31.jpg": "/chinese_literature/static/media/Home_image31.7fc4a7d7d2a6364c04c9.jpg",
     "static/media/Home_image41.jpg": "/chinese_literature/static/media/Home_image41.ffb665a5bb860487e81b.jpg",
     "static/media/Home_image51.jpg": "/chinese_literature/static/media/Home_image51.f6fd792f12d8e12590d2.jpg",
     "index.html": "/chinese_literature/index.html",
-    "main.2f4c9cd6.css.map": "/chinese_literature/static/css/main.2f4c9cd6.css.map",
-    "main.22c690f4.js.map": "/chinese_literature/static/js/main.22c690f4.js.map"
+    "main.6101718b.css.map": "/chinese_literature/static/css/main.6101718b.css.map",
+    "main.d875212a.js.map": "/chinese_literature/static/js/main.d875212a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f4c9cd6.css",
-    "static/js/main.22c690f4.js"
+    "static/css/main.6101718b.css",
+    "static/js/main.d875212a.js"
   ]
 }
