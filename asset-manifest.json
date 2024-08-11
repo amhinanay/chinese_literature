@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amhinanay/chinese_literature/static/css/main.d4a78b5f.css",
-    "main.js": "/amhinanay/chinese_literature/static/js/main.13a05cd3.js",
+    "main.js": "/amhinanay/chinese_literature/static/js/main.694b5aa7.js",
     "static/media/Quote_image1.jpg": "/amhinanay/chinese_literature/static/media/Quote_image1.e2aa6deb2e0db59b2777.jpg",
     "static/media/Home_image6.jpg": "/amhinanay/chinese_literature/static/media/Home_image6.7c19bb23e284e13d735e.jpg",
     "static/media/image5.jpg": "/amhinanay/chinese_literature/static/media/image5.644a084282aa9e2f3789.jpg",
@@ -17,10 +17,10 @@
     "static/media/Home_image41.jpg": "/amhinanay/chinese_literature/static/media/Home_image41.ffb665a5bb860487e81b.jpg",
     "index.html": "/amhinanay/chinese_literature/index.html",
     "main.d4a78b5f.css.map": "/amhinanay/chinese_literature/static/css/main.d4a78b5f.css.map",
-    "main.13a05cd3.js.map": "/amhinanay/chinese_literature/static/js/main.13a05cd3.js.map"
+    "main.694b5aa7.js.map": "/amhinanay/chinese_literature/static/js/main.694b5aa7.js.map"
   },
   "entrypoints": [
     "static/css/main.d4a78b5f.css",
-    "static/js/main.13a05cd3.js"
+    "static/js/main.694b5aa7.js"
   ]
 }
