@@ -1,3 +1,4 @@
+
 /* Global Styles */
 body {
   margin: 0;
@@ -117,7 +118,7 @@ body {
   align-items: center;
   cursor: pointer;
   font-size: 1.2rem;
-  margin: 1.5rem 0;
+  margin: -2rem 0;
   font-weight: bold;
   text-decoration: none;
   color: #f0f0f0;
@@ -150,12 +151,12 @@ body {
 
 .active-tab {
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 
 .tab-contents ul {
   list-style: none;
-  padding: 0;
+  padding: 0px;
 }
 
 .tab-contents ul li {
@@ -211,7 +212,7 @@ body {
 
   .tab-title {
     font-size: 1rem;
-    flex-direction: column;
+    margin: 1rem 0; 
   }
 
   .tab-link {
@@ -254,10 +255,11 @@ body {
 
   .tab-title {
     font-size: 0.9rem;
+    margin: 0.5rem 0; 
   }
 
   .tab-link {
-    padding: 8px 0;
+    padding: 8px 0; 
   }
 
   .tab-contents ul li {

@@ -1,0 +1,126 @@
+/* Rcl Section */
+.rcl-section {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .rcl-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rcl-section li {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .rcl-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .rcl-section h2, .rcl-section h3 {
+    color: #222;
+    margin: 0; /* Reset margin to keep spacing consistent */
+  }
+  
+  .rcl-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  
+  .rcl-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Flex Container for Ching and Analects Sections */
+  .rcl-container {
+    display: flex;
+    flex-direction: row; /* Default to horizontal layout */
+    gap: 20px; /* Space between sections */
+    justify-content: center; /* Center align items horizontally */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-top: 0; /* Reset top margin */
+  }
+  
+  .Ching, .Analects {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items within each section */
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px; 
+  }
+  
+  .Ching img, .Analects img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .Ching h1, .Analects h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #222;
+    text-align: center; /* Center align text */
+    margin: 0; /* Reset margin to keep spacing consistent */
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 769px) {
+    .rcl-container {
+      flex-direction: row; /* Horizontal layout on desktop screens */
+    }
+    
+    .Ching {
+      order: 1; /* Ensure .Ching is on the left */
+    }
+    
+    .Analects {
+      order: 2; /* Ensure .Analects is on the right */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .rcl-container {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+      align-items: center; /* Center align items */
+    }
+  
+    .Ching, .Analects {
+      padding: 10px;
+      max-width: 90%; /* Full width on smaller screens */
+    }
+  
+    .Ching img, .Analects img {
+      max-width: 90%;
+    }
+  
+    .Ching h1, .Analects h1 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Ching, .Analects {
+      padding: 8px;
+    }
+  
+    .Ching h1, .Analects h1 {
+      font-size: 1rem;
+    }
+  }
+  

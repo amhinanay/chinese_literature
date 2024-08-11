@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Page1.css';
 import image3 from '../assets/Home_image3.jpg';
 import image4 from '../assets/Home_image4.jpg';
 import image5 from '../assets/Home_image5.jpg';
 import image6 from '../assets/Home_image6.jpg';
 
+
 function Page1() {
-  const [activeTab, setActiveTab] = useState('overview'); // Default active tab
+  const [activeTab, setActiveTab] = useState('overview');
 
   // Handle tab click and save to localStorage
   const handleTabClick = (tab) => {
@@ -29,25 +31,31 @@ function Page1() {
       </div>
       <div className="allpost">
         <div className="rcl">
-          <img src={image4} alt="Reading Chinese Literature" />
-          <h1>
-            <span>Reading Chinese Literature</span><br />
-            The study of Chinese literature and culture will help you bridge the cultural gap, better understand your Chinese counterparts, and...
-          </h1>
+        <img src={image4} alt="Reading Chinese Literature" />
+        <Link to="Rcl">
+            <h1>
+              <span>Reading Chinese Literature</span><br />
+              The study of Chinese literature and culture will help you bridge the cultural gap, better understand your Chinese counterparts, and...
+            </h1>
+          </Link>
         </div>
         <div className="ching">
-          <img src={image3} alt="I Ching" />
-          <h1>
+        <img src={image3} alt="I Ching" />
+        <Link to="Ching"> 
+                  <h1>
             <span>I Ching, The Book of Changes</span><br />
             The I Ching is known as the Book of Changes, and Hexagram 49 details the precise changes in Revolution, the goal of which is to "create...
           </h1>
+        </Link>
         </div>
         <div className="analects">
           <img src={image5} alt="The Analects" />
+          <Link to="Analects"> 
           <h1>
             <span>The Analects</span><br />
             The Analects (meaning "Selected Sayings"), also known as the Analects of Confucius, the Sayings of Confucius, or the Lun Yu, is an...
           </h1>
+          </Link>
         </div>
       </div>
       <div className="last">
@@ -89,8 +97,8 @@ function Page1() {
           </div>
           <div className={`tab-contents ${activeTab === 'modern' ? 'active-tab' : ''}`} id="modern">
             <ul>
-              <li><span>Lu Xun</span><br />Considered the father of modern Chinese literature, Lu Xun's works offer critical perspectives on Chinese society and culture in the early 20th century.</li>
               <li><span>Modern Chinese Poetry</span><br />Explore the evolution of Chinese poetry from the late Qing dynasty to contemporary times.</li>
+              <li><span>Lu Xun</span><br />Lu Xun, the father of modern Chinese literature, provided critical views on early 20th-century Chinese society and culture.</li>
             </ul>
           </div>
         </div>

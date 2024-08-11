@@ -4,6 +4,9 @@ import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
 import Page3 from './pages/Page3';
 import Page4 from './pages/Page4';
+import Rcl from './pages/Rcl';
+import Ching from './pages/Ching';
+import Analects from './pages/Analects';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
@@ -39,6 +42,9 @@ function App() {
           <Route path="/page2" element={<Page2 />} />
           <Route path="/page3" element={<Page3 />} />
           <Route path="/page4" element={<Page4 />} />
+          <Route path="/rcl" element={<Rcl />} />
+          <Route path="/ching" element={<Ching />} />
+          <Route path="/analects" element={<Analects />} />
         </Routes>
       </div>
     </Router>

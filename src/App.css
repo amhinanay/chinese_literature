@@ -125,12 +125,12 @@ footer p {
   }
 
   nav ul {
-    background: black;
+    background: var(--background-color); /* Adjust background color */
     position: fixed;
     top: 0;
-    right: -200px;
-    width: 200px;
-    height: 100vh;
+    right: -100%; /* Hide off-screen initially */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -138,6 +138,7 @@ footer p {
     justify-content: center;
     list-style: none;
     margin: 0;
+    transition: right .8s ease; /* Smooth transition for sliding in/out */
   }
 
   nav ul.open {
